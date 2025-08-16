@@ -30,5 +30,16 @@ namespace BIKE_STROE_POS.UserInterface
                 frmBrand.Show();
             }
         }
+        Form frmOrder = null;
+        private void oderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frmOrder == null || frmOrder.Visible == false)
+            {
+                frmOrder = new FORM_ORDER();
+                frmOrder.MdiParent = this;
+                frmOrder.StartPosition = FormStartPosition.CenterScreen;
+                frmOrder.Show();
+            }
+        }
     }
 }

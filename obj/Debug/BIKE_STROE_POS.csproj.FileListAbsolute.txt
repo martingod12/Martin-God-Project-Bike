@@ -11,3 +11,4 @@ D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_P
 D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.UserInterface.FORM_LOGIN.resources
 D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.UserInterface.FORM_MAIN.resources
 D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.UserInterface.FORM_BRAND.resources
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.UserInterface.FORM_ORDER.resources

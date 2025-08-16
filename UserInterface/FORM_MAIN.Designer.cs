@@ -101,26 +101,27 @@
             // customerToolStripMenuItem
             // 
             this.customerToolStripMenuItem.Name = "customerToolStripMenuItem";
-            this.customerToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.customerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.customerToolStripMenuItem.Text = "Customer";
             // 
             // staffToolStripMenuItem
             // 
             this.staffToolStripMenuItem.Name = "staffToolStripMenuItem";
-            this.staffToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.staffToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.staffToolStripMenuItem.Text = "Staff";
             // 
             // storeToolStripMenuItem
             // 
             this.storeToolStripMenuItem.Name = "storeToolStripMenuItem";
-            this.storeToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.storeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.storeToolStripMenuItem.Text = "Store";
             // 
             // oderToolStripMenuItem
             // 
             this.oderToolStripMenuItem.Name = "oderToolStripMenuItem";
-            this.oderToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.oderToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.oderToolStripMenuItem.Text = "Oder";
+            this.oderToolStripMenuItem.Click += new System.EventHandler(this.oderToolStripMenuItem_Click);
             // 
             // manageProductionsToolStripMenuItem
             // 

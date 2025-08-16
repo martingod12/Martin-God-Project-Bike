@@ -84,6 +84,12 @@
     <Compile Include="UserInterface\FORM_MAIN.Designer.cs">
       <DependentUpon>FORM_MAIN.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserInterface\FORM_ORDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\FORM_ORDER.Designer.cs">
+      <DependentUpon>FORM_ORDER.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserInterface\FORM_MAIN.resx">
       <DependentUpon>FORM_MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\FORM_ORDER.resx">
+      <DependentUpon>FORM_ORDER.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -111,23 +111,7 @@ namespace BIKE_STROE_POS.Service
             CloseConnx();
             return result;
         }
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-        // Get brand by name        
-
-
+        
     }
 
 }
