@@ -1,0 +1,13 @@
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\bin\Debug\BIKE_STROE_POS.exe.config
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\bin\Debug\BIKE_STROE_POS.exe
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\bin\Debug\BIKE_STROE_POS.pdb
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.csproj.AssemblyReference.cache
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.Form1.resources
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.Properties.Resources.resources
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.csproj.GenerateResource.cache
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.csproj.CoreCompileInputs.cache
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.exe
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.pdb
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.UserInterface.FORM_LOGIN.resources
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.UserInterface.FORM_MAIN.resources
+D:\BBU_IT\BBU_IT_Y3_S1\ClientServerApplicationDevelopment\BikeStore\BIKE_STROE_POS\BIKE_STROE_POS\obj\Debug\BIKE_STROE_POS.UserInterface.FORM_BRAND.resources
