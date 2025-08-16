@@ -15,7 +15,7 @@ namespace BIKE_STROE_POS.Service
         {
             List<Product> products = new List<Product>();
             SqlCommand cmd = GetConnection().CreateCommand();
-            cmd.CommandText = "SELECT * FROM production.products";
+            cmd.CommandText = "select * from production.products";
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {

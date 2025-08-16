@@ -15,6 +15,9 @@ namespace BIKE_STROE_POS.UserInterface
 {
     public partial class FORM_ORDER: Form
     {
+        BrandServices brandService = new BrandServices();
+        CategoryService categoryService = new CategoryService();
+        ProductService productService = new ProductService();
         public FORM_ORDER()
         {
             InitializeComponent();
@@ -44,8 +47,9 @@ namespace BIKE_STROE_POS.UserInterface
 
             LoadBrand();
             LoadCategory();
+            FilterProduct();
         }
-        BrandServices brandService = new BrandServices();
+        
         private void LoadBrand()
         {
             foreach(Brand brand in brandService.GetBrands())
@@ -73,6 +77,19 @@ namespace BIKE_STROE_POS.UserInterface
             }
             flbCategory.FlowDirection = FlowDirection.LeftToRight;
             flbCategory.AutoScroll = true;
+        }
+        private void FilterProduct()
+        {
+            foreach(Product product in productService.GetProducts())
+            {
+                Button button = new Button();
+                button.Name = product.product_id.ToString();
+                button.Text = product.product_name.ToString();
+                button.Height = 100;
+                button.Width = 100;
+                flpProduct.Controls.Add(button);
+                flpProduct.AutoScroll = true;
+            }
         }
 
     }
