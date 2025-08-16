@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BIKE_STROE_POS.Model;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -26,6 +27,10 @@ namespace BIKE_STROE_POS.Share
             {
                 connx.Close();
             }
+        }
+        public List<Product> GetProducts()
+        {
+            List<Product> products = new List<Product>();
         }
     }
 }

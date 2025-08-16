@@ -113,5 +113,10 @@ namespace BIKE_STROE_POS.UserInterface
             
 
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

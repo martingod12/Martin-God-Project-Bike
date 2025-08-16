@@ -53,16 +53,21 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Brand.cs" />
+    <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\OrderItem.cs" />
+    <Compile Include="Model\Product.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BrandService.cs" />
+    <Compile Include="Service\CategoryService.cs" />
     <Compile Include="Service\OrderItemService.cs" />
     <Compile Include="Service\OrderService.cs" />
+    <Compile Include="Service\ProductService.cs" />
     <Compile Include="Service\UserService.cs" />
     <Compile Include="Share\Connection.cs" />
+    <Compile Include="Share\Helper.cs" />
     <Compile Include="Share\Msg.cs" />
     <Compile Include="Share\Transaction.cs" />
     <Compile Include="UserInterface\BrandService.cs" />

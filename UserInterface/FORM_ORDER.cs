@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BIKE_STROE_POS.Model;
+using BIKE_STROE_POS.Service;
+using BIKE_STROE_POS.Share;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,6 +38,41 @@ namespace BIKE_STROE_POS.UserInterface
             dgvOder.AllowUserToAddRows = false;
             dgvOder.RowHeadersVisible = false;
             dgvOder.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+
+            Helper.BindCombobox(cboStore, "select store_id,store_name from sales.stores");
+            Helper.BindCombobox(cboCustomer, "select customer_id,first_name + ' ' + last_name as full_name from sales.customers");
+
+            LoadBrand();
+            LoadCategory();
+        }
+        BrandServices brandService = new BrandServices();
+        private void LoadBrand()
+        {
+            foreach(Brand brand in brandService.GetBrands())
+            {
+                Button button = new Button();
+                button.Name = brand.brand_id.ToString();
+                button.Text = brand.brand_name.ToString();
+                button.Height = 20;
+                flbBrand.Controls.Add(button);
+            }
+            flbBrand.FlowDirection = FlowDirection.LeftToRight;
+            flbBrand.AutoScroll = true;
+
+        }
+        private void LoadCategory()
+        {
+            // Fix: Use the GetCategories() method from CategoryService instead of GetConnection()
+            foreach (Category category in new CategoryService().GetCategories())
+            {
+                Button button = new Button();
+                button.Name = category.category_id.ToString();
+                button.Text = category.category_name.ToString();
+                button.Height = 20;
+                flbCategory.Controls.Add(button);
+            }
+            flbCategory.FlowDirection = FlowDirection.LeftToRight;
+            flbCategory.AutoScroll = true;
         }
 
     }
